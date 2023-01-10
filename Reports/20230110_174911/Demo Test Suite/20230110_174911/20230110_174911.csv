@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo Test Suite,Chrome 108.0.0.0,,,2023-01-10 17:49:27,2023-01-10 17:49:58,30.415s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 108.0.0.0,,,2023-01-10 17:49:28,2023-01-10 17:49:46,17.613s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-10 17:49:30,2023-01-10 17:49:34,4.219s,PASSED
+driver = getWebDriver(),Chrome 108.0.0.0,,,2023-01-10 17:49:34,2023-01-10 17:49:34,0.018s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, internal.GlobalVariable.baseUrl)",Chrome 108.0.0.0,,,2023-01-10 17:49:34,2023-01-10 17:49:35,1.380s,PASSED
+selenium.open(baseUrl),Chrome 108.0.0.0,,,2023-01-10 17:49:35,2023-01-10 17:49:37,1.312s,PASSED
+selenium.waitForPageToLoad(pageLoadWT),Chrome 108.0.0.0,,,2023-01-10 17:49:37,2023-01-10 17:49:37,0.579s,PASSED
+"click(SelectBy.xpath(""//*[@id='UserName']""))",Chrome 108.0.0.0,,,2023-01-10 17:49:37,2023-01-10 17:49:38,0.658s,PASSED
+"selenium.type(""id=UserName"", pnhyn"".toString())",Chrome 108.0.0.0,,,2023-01-10 17:49:38,2023-01-10 17:49:38,0.162s,PASSED
+"selenium.type(""id=Password"", ""a`123456"".toString())",Chrome 108.0.0.0,,,2023-01-10 17:49:38,2023-01-10 17:49:38,0.207s,PASSED
+"selenium.click(""xpath=//button[@type='submit']"")",Chrome 108.0.0.0,,,2023-01-10 17:49:38,2023-01-10 17:49:39,0.480s,PASSED
+"waitForElementPresent(SelectBy.xpath(""//*[@id='select2-TenantsID-container']""), elementPresentWT)",Chrome 108.0.0.0,,,2023-01-10 17:49:39,2023-01-10 17:49:40,1.131s,PASSED
+"selenium.click(""id=select2-TenantsID-container"")",Chrome 108.0.0.0,,,2023-01-10 17:49:40,2023-01-10 17:49:40,0.153s,PASSED
+"selenium.click(""xpath=/html/body/span/span/span[2]/ul/li[5]"")",Chrome 108.0.0.0,,,2023-01-10 17:49:40,2023-01-10 17:49:41,0.658s,PASSED
+"selenium.click(""id=enter"")",Chrome 108.0.0.0,,,2023-01-10 17:49:41,2023-01-10 17:49:41,0.189s,PASSED
+selenium.waitForPageToLoad(pageLoadWT),Chrome 108.0.0.0,,,2023-01-10 17:49:41,2023-01-10 17:49:42,0.562s,PASSED
+"response = """"",Chrome 108.0.0.0,,,2023-01-10 17:49:42,2023-01-10 17:49:42,0.002s,PASSED
+try,Chrome 108.0.0.0,,,2023-01-10 17:49:42,2023-01-10 17:49:46,4.219s,PASSED
+"assert response != """"",Chrome 108.0.0.0,,,2023-01-10 17:49:46,2023-01-10 17:49:46,0.004s,PASSED
+,,,,,,,
+Test Cases/واحد کالا/ثبت واحد کالا,Chrome 108.0.0.0,,,2023-01-10 17:49:46,2023-01-10 17:49:53,6.979s,PASSED
+driver = getWebDriver(),Chrome 108.0.0.0,,,2023-01-10 17:49:48,2023-01-10 17:49:48,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, internal.GlobalVariable.baseUrl)",Chrome 108.0.0.0,,,2023-01-10 17:49:48,2023-01-10 17:49:48,0.025s,PASSED
+selenium.open(baseUrl),Chrome 108.0.0.0,,,2023-01-10 17:49:48,2023-01-10 17:49:49,0.859s,PASSED
+"selenium.click(""xpath=//li[@id='menu_base']/a/span"")",Chrome 108.0.0.0,,,2023-01-10 17:49:49,2023-01-10 17:49:49,0.658s,PASSED
+"selenium.click(""xpath=//li[@id='menu_unit']/a/span"")",Chrome 108.0.0.0,,,2023-01-10 17:49:49,2023-01-10 17:49:50,0.572s,PASSED
+selenium.waitForPageToLoad(pageLoadWT),Chrome 108.0.0.0,,,2023-01-10 17:49:50,2023-01-10 17:49:51,0.713s,PASSED
+"selenium.selectFrame(""index=0"")",Chrome 108.0.0.0,,,2023-01-10 17:49:51,2023-01-10 17:49:51,0.568s,PASSED
+"randomNum = random()*10000000)"").toInteger() + 1000000",Chrome 108.0.0.0,,,2023-01-10 17:49:51,2023-01-10 17:49:51,0.024s,PASSED
+"selenium.click(""id=Name"")",Chrome 108.0.0.0,,,2023-01-10 17:49:51,2023-01-10 17:49:52,0.440s,PASSED
+"selenium.type(""id=Name"", randomNum.toString())",Chrome 108.0.0.0,,,2023-01-10 17:49:52,2023-01-10 17:49:52,0.152s,PASSED
+"response = """"",Chrome 108.0.0.0,,,2023-01-10 17:49:52,2023-01-10 17:49:52,0.000s,PASSED
+"selenium.click(""id=btnregister"")",Chrome 108.0.0.0,,,2023-01-10 17:49:52,2023-01-10 17:49:52,0.229s,PASSED
+switchTo().defaultContent(),Chrome 108.0.0.0,,,2023-01-10 17:49:52,2023-01-10 17:49:52,0.066s,PASSED
+try,Chrome 108.0.0.0,,,2023-01-10 17:49:52,2023-01-10 17:49:53,0.716s,PASSED
+"assert response.contains(""عملیات با موفقیت انجام شد"")",Chrome 108.0.0.0,,,2023-01-10 17:49:53,2023-01-10 17:49:53,0.001s,PASSED
+,,,,,,,
+Test Cases/logout,Chrome 108.0.0.0,,,2023-01-10 17:49:53,2023-01-10 17:49:58,5.093s,PASSED
+driver = getWebDriver(),Chrome 108.0.0.0,,,2023-01-10 17:49:54,2023-01-10 17:49:54,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, internal.GlobalVariable.baseUrl)",Chrome 108.0.0.0,,,2023-01-10 17:49:54,2023-01-10 17:49:54,0.020s,PASSED
+switchTo().defaultContent(),Chrome 108.0.0.0,,,2023-01-10 17:49:54,2023-01-10 17:49:54,0.021s,PASSED
+"click(SelectBy.xpath(""//*[@id='navbar-mobile']/div/ul/li""))",Chrome 108.0.0.0,,,2023-01-10 17:49:54,2023-01-10 17:49:56,1.605s,PASSED
+"selenium.click(""link=خروج"")",Chrome 108.0.0.0,,,2023-01-10 17:49:56,2023-01-10 17:49:57,1.394s,PASSED
+selenium.waitForPageToLoad(pageLoadWT),Chrome 108.0.0.0,,,2023-01-10 17:49:57,2023-01-10 17:49:58,0.553s,PASSED
+"response = """"",Chrome 108.0.0.0,,,2023-01-10 17:49:58,2023-01-10 17:49:58,0.001s,PASSED
+try,Chrome 108.0.0.0,,,2023-01-10 17:49:58,2023-01-10 17:49:58,0.034s,PASSED
+"assert response != """"",Chrome 108.0.0.0,,,2023-01-10 17:49:58,2023-01-10 17:49:58,0.001s,PASSED

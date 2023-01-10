@@ -74,10 +74,5 @@ catch (Exception e) {
     println(e)
 } 
 
-if (GlobalVariable.response == '') {
-    CustomKeywords.'myPack.ReadWriteExcel.report'('ورود کاربر', 'passed')
-} else {
-    CustomKeywords.'myPack.ReadWriteExcel.report'('ورود کاربر', 'failed')
-
-}
+assert(GlobalVariable.response != '')
 

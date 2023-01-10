@@ -67,7 +67,4 @@ catch (Exception e) {
 	this.println(e)
 }
 
-if(GlobalVariable.response != "")
-	CustomKeywords.'myPack.ReadWriteExcel.report'("خروج کاربر","passed")
-else
-	CustomKeywords.'myPack.ReadWriteExcel.report'("خروج کاربر","failed")
+assert(GlobalVariable.response != "")

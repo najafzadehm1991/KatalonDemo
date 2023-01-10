@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo Test Suite" time="29.437" tests="3" failures="0" errors="3">
+   <testsuite name="Demo Test Suite" tests="3" failures="0" errors="3" time="29.437" skipped="0" timestamp="2023-01-10 17:44:28" hostname="m.najafzadeh - najafzadeh.samin.local" id="Test Suites/Demo Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\m.najafzadeh\\Katalon Studio\\KatalonDemo.git\\Reports\\20230110_174412\\Demo Test Suite\\20230110_174412"/>
+         <property name="logFiles" value="C:\\Users\\m.najafzadeh\\Katalon Studio\\KatalonDemo.git\\Reports\\20230110_174412\\Demo Test Suite\\20230110_174412\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="m.najafzadeh - najafzadeh.samin.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.20.43"/>
+         <property name="sessionId" value="3313214db15adb442aed1536943316e0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login" time="17.563" classname="Test Cases/login" status="ERROR">
+         <error type="ERROR" message="Test Cases/login FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at login.run(login:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673360052040.run(TempTestSuite1673360052040.groovy:36)
+Caused by: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.report(ReadWriteExcel.groovy:48)
+	... 16 more
+"/>
+         <system-out><![CDATA[2023-01-10 17:44:28 - [TEST_CASE][ERROR] - Test Cases/login: Test Cases/login FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at login.run(login:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673360052040.run(TempTestSuite1673360052040.groovy:36)
+Caused by: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.report(ReadWriteExcel.groovy:48)
+	... 16 more
+
+
+2023-01-10 17:44:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-10 17:44:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-10 17:44:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-10 17:44:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-10 17:44:35 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-01-10 17:44:35 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, internal.GlobalVariable.baseUrl): null
+
+2023-01-10 17:44:36 - [TEST_STEP][PASSED] - selenium.open(baseUrl): null
+
+2023-01-10 17:44:37 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad(pageLoadWT): null
+
+2023-01-10 17:44:38 - [TEST_STEP][PASSED] - click(SelectBy.xpath("//*[@id='UserName']")): Object: '' is clicked on
+
+2023-01-10 17:44:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2023-01-10 17:44:39 - [TEST_STEP][PASSED] - selenium.type("id=UserName", pnhyn".toString()): null
+
+2023-01-10 17:44:39 - [TEST_STEP][PASSED] - selenium.type("id=Password", "a`123456".toString()): null
+
+2023-01-10 17:44:39 - [TEST_STEP][PASSED] - selenium.click("xpath=//button[@type='submit']"): null
+
+2023-01-10 17:44:39 - [TEST_STEP][PASSED] - waitForElementPresent(SelectBy.xpath("//*[@id='select2-TenantsID-container']"), elementPresentWT): Object '' is present
+
+2023-01-10 17:44:40 - [MESSAGE][PASSED] - Object '' is present
+
+2023-01-10 17:44:40 - [TEST_STEP][PASSED] - selenium.click("id=select2-TenantsID-container"): null
+
+2023-01-10 17:44:41 - [TEST_STEP][PASSED] - selenium.click("xpath=/html/body/span/span/span[2]/ul/li[5]"): null
+
+2023-01-10 17:44:41 - [TEST_STEP][PASSED] - selenium.click("id=enter"): null
+
+2023-01-10 17:44:41 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad(pageLoadWT): null
+
+2023-01-10 17:44:42 - [TEST_STEP][PASSED] - response = "": null
+
+2023-01-10 17:44:42 - [TEST_STEP][PASSED] - try: null
+
+2023-01-10 17:44:42 - [TEST_STEP][PASSED] - response = selenium.getText("xpath=/html/body/div[2]/div[1]/a/strong"): null
+
+2023-01-10 17:44:46 - [TEST_STEP][PASSED] - if (response == ""): null
+
+2023-01-10 17:44:46 - [TEST_STEP][ERROR] - else: Test Cases/login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at login.run(login:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673360052040.run(TempTestSuite1673360052040.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1671867377818.run(Script1671867377818.groovy:80)
+	... 13 more
+Caused by: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.report(ReadWriteExcel.groovy:48)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at login.run(login:80)
+	... 13 more
+
+
+2023-01-10 17:44:46 - [TEST_STEP][ERROR] - myPack.ReadWriteExcel.report("ورود کاربر", "failed"): Test Cases/login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at login.run(login:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673360052040.run(TempTestSuite1673360052040.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1671867377818.run(Script1671867377818.groovy:80)
+	... 13 more
+Caused by: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.report(ReadWriteExcel.groovy:48)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at login.run(login:80)
+	... 13 more
+
+
+2023-01-10 17:44:46 - [MESSAGE][ERROR] - java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+
+2023-01-10 17:44:46 - [MESSAGE][ERROR] - Test Cases/login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at login.run(login:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673360052040.run(TempTestSuite1673360052040.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1671867377818.run(Script1671867377818.groovy:80)
+	... 13 more
+Caused by: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.report(ReadWriteExcel.groovy:48)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at login.run(login:80)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2023-01-10 17:44:28 - [TEST_CASE][ERROR] - Test Cases/login: Test Cases/login FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at login.run(login:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673360052040.run(TempTestSuite1673360052040.groovy:36)
+Caused by: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.report(ReadWriteExcel.groovy:48)
+	... 16 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/واحد کالا/ثبت واحد کالا" time="6.69" classname="Test Cases/واحد کالا/ثبت واحد کالا" status="ERROR">
+         <error type="ERROR" message="Test Cases/واحد کالا/ثبت واحد کالا FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at ثبت واحد کالا.run(ثبت واحد کالا:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673360052040.run(TempTestSuite1673360052040.groovy:36)
+Caused by: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.report(ReadWriteExcel.groovy:48)
+	... 16 more
+"/>
+         <system-out><![CDATA[2023-01-10 17:44:46 - [TEST_CASE][ERROR] - Test Cases/واحد کالا/ثبت واحد کالا: Test Cases/واحد کالا/ثبت واحد کالا FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at ثبت واحد کالا.run(ثبت واحد کالا:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673360052040.run(TempTestSuite1673360052040.groovy:36)
+Caused by: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.report(ReadWriteExcel.groovy:48)
+	... 16 more
+
+
+2023-01-10 17:44:47 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-01-10 17:44:47 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, internal.GlobalVariable.baseUrl): null
+
+2023-01-10 17:44:47 - [TEST_STEP][PASSED] - selenium.open(baseUrl): null
+
+2023-01-10 17:44:48 - [TEST_STEP][PASSED] - selenium.click("xpath=//li[@id='menu_base']/a/span"): null
+
+2023-01-10 17:44:49 - [TEST_STEP][PASSED] - selenium.click("xpath=//li[@id='menu_unit']/a/span"): null
+
+2023-01-10 17:44:49 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad(pageLoadWT): null
+
+2023-01-10 17:44:50 - [TEST_STEP][PASSED] - selenium.selectFrame("index=0"): null
+
+2023-01-10 17:44:51 - [TEST_STEP][PASSED] - randomNum = random()*10000000)").toInteger() + 1000000: null
+
+2023-01-10 17:44:51 - [TEST_STEP][PASSED] - selenium.click("id=Name"): null
+
+2023-01-10 17:44:51 - [TEST_STEP][PASSED] - selenium.type("id=Name", randomNum.toString()): null
+
+2023-01-10 17:44:52 - [TEST_STEP][PASSED] - response = "": null
+
+2023-01-10 17:44:52 - [TEST_STEP][PASSED] - selenium.click("id=btnregister"): null
+
+2023-01-10 17:44:52 - [TEST_STEP][PASSED] - switchTo().defaultContent(): null
+
+2023-01-10 17:44:52 - [TEST_STEP][PASSED] - try: Text of object '' is: 'عملیات با موفقیت انجام شد'
+
+2023-01-10 17:44:52 - [TEST_STEP][PASSED] - response = getText(SelectBy.xpath("//div[@id='toast-container']/div/div")): Text of object '' is: 'عملیات با موفقیت انجام شد'
+
+2023-01-10 17:44:52 - [MESSAGE][PASSED] - Text of object '' is: 'عملیات با موفقیت انجام شد'
+
+2023-01-10 17:44:52 - [TEST_STEP][ERROR] - if (response.contains("عملیات با موفقیت انجام شد")): Test Cases/واحد کالا/ثبت واحد کالا FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at ثبت واحد کالا.run(ثبت واحد کالا:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673360052040.run(TempTestSuite1673360052040.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1671880665961.run(Script1671880665961.groovy:79)
+	... 13 more
+Caused by: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.report(ReadWriteExcel.groovy:48)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at ثبت واحد کالا.run(ثبت واحد کالا:79)
+	... 13 more
+
+
+2023-01-10 17:44:52 - [MESSAGE][ERROR] - java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+
+2023-01-10 17:44:52 - [MESSAGE][ERROR] - Test Cases/واحد کالا/ثبت واحد کالا FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at ثبت واحد کالا.run(ثبت واحد کالا:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673360052040.run(TempTestSuite1673360052040.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1671880665961.run(Script1671880665961.groovy:79)
+	... 13 more
+Caused by: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.report(ReadWriteExcel.groovy:48)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at ثبت واحد کالا.run(ثبت واحد کالا:79)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2023-01-10 17:44:46 - [TEST_CASE][ERROR] - Test Cases/واحد کالا/ثبت واحد کالا: Test Cases/واحد کالا/ثبت واحد کالا FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at ثبت واحد کالا.run(ثبت واحد کالا:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673360052040.run(TempTestSuite1673360052040.groovy:36)
+Caused by: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.report(ReadWriteExcel.groovy:48)
+	... 16 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/logout" time="4.448" classname="Test Cases/logout" status="ERROR">
+         <error type="ERROR" message="Test Cases/logout FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at logout.run(logout:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673360052040.run(TempTestSuite1673360052040.groovy:36)
+Caused by: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.report(ReadWriteExcel.groovy:48)
+	... 16 more
+"/>
+         <system-out><![CDATA[2023-01-10 17:44:53 - [TEST_CASE][ERROR] - Test Cases/logout: Test Cases/logout FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at logout.run(logout:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673360052040.run(TempTestSuite1673360052040.groovy:36)
+Caused by: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.report(ReadWriteExcel.groovy:48)
+	... 16 more
+
+
+2023-01-10 17:44:54 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-01-10 17:44:54 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, internal.GlobalVariable.baseUrl): null
+
+2023-01-10 17:44:54 - [TEST_STEP][PASSED] - switchTo().defaultContent(): null
+
+2023-01-10 17:44:54 - [TEST_STEP][PASSED] - click(SelectBy.xpath("//*[@id='navbar-mobile']/div/ul/li")): Object: '' is clicked on
+
+2023-01-10 17:44:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2023-01-10 17:44:55 - [TEST_STEP][PASSED] - selenium.click("link=خروج"): null
+
+2023-01-10 17:44:56 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad(pageLoadWT): null
+
+2023-01-10 17:44:57 - [TEST_STEP][PASSED] - response = "": null
+
+2023-01-10 17:44:57 - [TEST_STEP][PASSED] - try: null
+
+2023-01-10 17:44:57 - [TEST_STEP][PASSED] - response = selenium.getText("xpath=//button[@type='submit']"): null
+
+2023-01-10 17:44:57 - [TEST_STEP][ERROR] - if (response != ""): Test Cases/logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at logout.run(logout:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673360052040.run(TempTestSuite1673360052040.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1671882972005.run(Script1671882972005.groovy:71)
+	... 13 more
+Caused by: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.report(ReadWriteExcel.groovy:48)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at logout.run(logout:71)
+	... 13 more
+
+
+2023-01-10 17:44:57 - [MESSAGE][ERROR] - java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+
+2023-01-10 17:44:57 - [MESSAGE][ERROR] - Test Cases/logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at logout.run(logout:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673360052040.run(TempTestSuite1673360052040.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1671882972005.run(Script1671882972005.groovy:71)
+	... 13 more
+Caused by: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.report(ReadWriteExcel.groovy:48)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at logout.run(logout:71)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2023-01-10 17:44:53 - [TEST_CASE][ERROR] - Test Cases/logout: Test Cases/logout FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at logout.run(logout:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673360052040.run(TempTestSuite1673360052040.groovy:36)
+Caused by: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.report(ReadWriteExcel.groovy:48)
+	... 16 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-01-10 17:44:28 - [TEST_SUITE][ERROR] - Demo Test Suite: Test Cases/login FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at login.run(login:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673360052040.run(TempTestSuite1673360052040.groovy:36)
+Caused by: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.report(ReadWriteExcel.groovy:48)
+	... 16 more]]></system-out>
+      <system-err><![CDATA[2023-01-10 17:44:28 - [TEST_SUITE][ERROR] - Demo Test Suite: Test Cases/login FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.invokeMethod(ReadWriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at login.run(login:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673360052040.run(TempTestSuite1673360052040.groovy:36)
+Caused by: java.io.FileNotFoundException: C:\Users\m.najafzadeh\Katalon Studio\anbardari\anbardari report.xlsx (The system cannot find the path specified)
+	at myPack.ReadWriteExcel.report(ReadWriteExcel.groovy:48)
+	... 16 more]]></system-err>
+   </testsuite>
+</testsuites>

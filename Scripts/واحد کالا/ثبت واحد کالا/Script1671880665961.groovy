@@ -75,7 +75,4 @@ catch (Exception e) {
 	this.println(e)
 }
 
-if((GlobalVariable.response).contains("عملیات با موفقیت انجام شد")) 
-	CustomKeywords.'myPack.ReadWriteExcel.report'("ثبت واحد کالا","passed")
-else
-	CustomKeywords.'myPack.ReadWriteExcel.report'("ثبت واحد کالا","failed")
+assert((GlobalVariable.response).contains("عملیات با موفقیت انجام شد"))

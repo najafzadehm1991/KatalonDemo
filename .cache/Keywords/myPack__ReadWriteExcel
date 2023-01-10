@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "93D49F6EBB5F0EAEDD05E6431D8B3F49",
+  "keywordClasses": [
+    {
+      "name": "myPack.ReadWriteExcel",
+      "keywordMethods": [
+        {
+          "name": "report",
+          "parameters": [
+            {
+              "name": "testcase",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "result",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

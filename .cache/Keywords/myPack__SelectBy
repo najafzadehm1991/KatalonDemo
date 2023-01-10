@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "4A5B109148D07B929C7782C0061B9A66",
+  "keywordClasses": [
+    {
+      "name": "myPack.SelectBy",
+      "keywordMethods": [
+        {
+          "name": "xpath",
+          "parameters": [
+            {
+              "name": "xpath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
