@@ -84,5 +84,5 @@ GlobalVariable.response = selenium.getText("xpath=//*[@id=\"_dataTable\"]/tbody/
 if((GlobalVariable.response).contains(GlobalVariable.randomNum.toString()))
 	CustomKeywords.'myPack.ReadWriteExcel.report'("جستجوی واحد کالا","passed")
 else
-	CustomKeywords.'myPack.ReadWriteExcel.report'("جستجوی واحد کالا","passed")
+	CustomKeywords.'myPack.ReadWriteExcel.report'("جستجوی واحد کالا","failed")
 	
